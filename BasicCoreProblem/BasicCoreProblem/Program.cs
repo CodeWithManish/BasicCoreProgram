@@ -13,8 +13,9 @@ namespace BasicCoreProblem
 
             Console.WriteLine(" Enter 1. to  print String Replace \n Enter 2. to print FlipCoin \n" +
                 " Enter 3. to print Leap Year \n Enter 4. to print Power of two \n Enter 5. to print harmonic number \n " +
-                "Enter 6. to print prime factor \n Enter 7. to find Swap Number \n Enter 8. to check Even Odd Number \n ");
-            
+                "Enter 6. to print prime factor \n Enter 7. to find Swap Number \n" +
+                " Enter 8. to check Even Odd Number \n Enter 9. to find Quotient and Remainder value \n");
+
             bool flag = true;
             while (flag)
             {
@@ -57,9 +58,15 @@ namespace BasicCoreProblem
                         swapNumber.Swap();
                         break;
 
-                    case 8: EvenOdd evenOdd=new EvenOdd();
+                    case 8:
+                        EvenOdd evenOdd = new EvenOdd();
                         evenOdd.EvenOddNum();
-                        break ;
+                        break;
+
+                    case 9:
+                        QuotientAndRemainder qr = new QuotientAndRemainder();
+                        qr.QuotientRemainder();
+                        break;
                 }
             }
 
