@@ -11,7 +11,8 @@ namespace BasicCoreProblem
         static void Main(string[] args)
         {
 
-            Console.WriteLine(" Enter 1. to  print String Replace \n Enter 2. to print FlipCoin \n Enter 3. to print Leap Year \n");
+            Console.WriteLine(" Enter 1. to  print String Replace \n Enter 2. to print FlipCoin \n" +
+                " Enter 3. to print Leap Year \n Enter 4. to print Power of two \n");
             bool flag = true;
             while (flag)
             {
@@ -32,6 +33,11 @@ namespace BasicCoreProblem
                     case 3:
                         LeapYear leapYear=new  LeapYear();
                         leapYear.Leap();
+                        break;
+
+                    case 4:
+                        PowerOfTwo powerOfTwo = new PowerOfTwo();
+                        powerOfTwo.CheckPower();
                         break;
                 }
             }
