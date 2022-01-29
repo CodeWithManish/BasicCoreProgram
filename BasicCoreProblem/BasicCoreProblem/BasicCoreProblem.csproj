@@ -55,6 +55,7 @@
     <Compile Include="QuotientAndRemainder.cs" />
     <Compile Include="StringReplace.cs" />
     <Compile Include="SwapNumber.cs" />
+    <Compile Include="VowelAndConsonent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

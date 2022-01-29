@@ -14,7 +14,8 @@ namespace BasicCoreProblem
             Console.WriteLine(" Enter 1. to  print String Replace \n Enter 2. to print FlipCoin \n" +
                 " Enter 3. to print Leap Year \n Enter 4. to print Power of two \n Enter 5. to print harmonic number \n " +
                 "Enter 6. to print prime factor \n Enter 7. to find Swap Number \n" +
-                " Enter 8. to check Even Odd Number \n Enter 9. to find Quotient and Remainder value \n Enter 10. to find Largest among tree Number \n");
+                " Enter 8. to check Even Odd Number \n Enter 9. to find Quotient and Remainder value \n " +
+                "Enter 10. to find Largest among three Number \n Enter 11. to check Alphabet is Vowel and Consonent \n");
 
             bool flag = true;
             while (flag)
@@ -73,7 +74,10 @@ namespace BasicCoreProblem
                         largeNumber.Biggest();
                         break;
 
-                    
+                    case 11:
+                        VowelAndConsonent vowelAndConsonent=new VowelAndConsonent();
+                        vowelAndConsonent.Alphabet();
+                        break;
                 }
             }
 
