@@ -11,7 +11,7 @@ namespace BasicCoreProblem
         static void Main(string[] args)
         {
 
-            Console.WriteLine(" Enter 1. to  print String Replace \n Enter 2. to print FlipCoin \n");
+            Console.WriteLine(" Enter 1. to  print String Replace \n Enter 2. to print FlipCoin \n Enter 3. to print Leap Year \n");
             bool flag = true;
             while (flag)
             {
@@ -27,6 +27,11 @@ namespace BasicCoreProblem
                     case 2:
                         FlipCoin flipCoin = new FlipCoin();
                         flipCoin.Flip();
+                        break;
+
+                    case 3:
+                        LeapYear leapYear=new  LeapYear();
+                        leapYear.Leap();
                         break;
                 }
             }
