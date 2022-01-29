@@ -12,7 +12,7 @@ namespace BasicCoreProblem
         {
 
             Console.WriteLine(" Enter 1. to  print String Replace \n Enter 2. to print FlipCoin \n" +
-                " Enter 3. to print Leap Year \n Enter 4. to print Power of two \n");
+                " Enter 3. to print Leap Year \n Enter 4. to print Power of two \n Enter 5. to print harmonic number \n");
             bool flag = true;
             while (flag)
             {
@@ -38,6 +38,10 @@ namespace BasicCoreProblem
                     case 4:
                         PowerOfTwo powerOfTwo = new PowerOfTwo();
                         powerOfTwo.CheckPower();
+                        break;
+
+                    case 5: Harmonic harmonic = new Harmonic();
+                         harmonic.HarmonicNum();
                         break;
                 }
             }
