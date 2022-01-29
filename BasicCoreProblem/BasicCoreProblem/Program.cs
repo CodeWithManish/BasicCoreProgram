@@ -12,7 +12,8 @@ namespace BasicCoreProblem
         {
 
             Console.WriteLine(" Enter 1. to  print String Replace \n Enter 2. to print FlipCoin \n" +
-                " Enter 3. to print Leap Year \n Enter 4. to print Power of two \n Enter 5. to print harmonic number \n Enter 6. to print prime factor \n");
+                " Enter 3. to print Leap Year \n Enter 4. to print Power of two \n Enter 5. to print harmonic number \n " +
+                "Enter 6. to print prime factor \n Enter 7. to find Swap Number \n");
             bool flag = true;
             while (flag)
             {
@@ -31,7 +32,7 @@ namespace BasicCoreProblem
                         break;
 
                     case 3:
-                        LeapYear leapYear=new  LeapYear();
+                        LeapYear leapYear = new LeapYear();
                         leapYear.Leap();
                         break;
 
@@ -40,12 +41,19 @@ namespace BasicCoreProblem
                         powerOfTwo.CheckPower();
                         break;
 
-                    case 5: Harmonic harmonic = new Harmonic();
-                         harmonic.HarmonicNum();
+                    case 5:
+                        Harmonic harmonic = new Harmonic();
+                        harmonic.HarmonicNum();
                         break;
 
-                    case 6: PrimeFactor primeFactor = new PrimeFactor();
+                    case 6:
+                        PrimeFactor primeFactor = new PrimeFactor();
                         primeFactor.Factor();
+                        break;
+
+                    case 7:
+                        SwapNumber swapNumber = new SwapNumber();
+                        swapNumber.Swap();
                         break;
                 }
             }
